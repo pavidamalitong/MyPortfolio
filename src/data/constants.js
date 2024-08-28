@@ -1,6 +1,6 @@
 export const Bio = {
     name: 'Pavida Malitong',
-    description: 'Hard-working digital engineering student with years of experience in projects and academic contests. Have a background in using front-end programming languages to create web pages. Currently looking for a software development internship opportunity to advance my skills and knowledge to benefit the company.',
+    description: 'Hard-working digital engineering student with years of experience in projects and academic contests. Have a background in data visualization and front-end development internships. Currently seeking a data science or software development internship to further develop my expertise and contribute to impactful projects within a potential company.',
 }
 
 export const skills = [
