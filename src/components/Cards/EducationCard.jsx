@@ -140,7 +140,7 @@ const EducationCard = ({ education }) => {
             </Top>
             <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                <ul style={{ listStyle: 'circle', marginLeft: '20px' }}>{education.desc.map((desc) => (<li key={desc}>{desc}</li>))}</ul>
             </Description>
         </Card>
     )

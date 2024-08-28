@@ -113,8 +113,7 @@ const HeroSection = () => {
         <BigName>Pavida Malitong</BigName>
         <Position>Digital Engineering student at SIIT, Thammasat University</Position>
         <Description><br></br>
-          I had a data visualization internship experience and strongly interest in web application.<br></br>
-          I currently look for software development internship opportunity.
+        Have a background in data visualization and front-end development internships. Currently seeking a data science or software development internship to further develop my expertise and contribute to impactful projects within a potential company.
         </Description>
       </LeftContainer>
 

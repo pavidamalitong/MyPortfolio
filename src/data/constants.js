@@ -8,11 +8,6 @@ export const skills = [
       title: "Programming",
       skills: [
         {
-          name: "React Js",
-          image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
@@ -25,6 +20,21 @@ export const skills = [
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/800px-Typescript_logo_2020.svg.png",
+        },
+        {
+          name: "React Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Next Js",
+          image:
+            "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
         },
         {
           name: "Node Js",
@@ -45,18 +55,14 @@ export const skills = [
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
         {
-          name: "MySQL",
+          name: "SQL",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-          name: "Firebase",
-          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT55MVn1u8pyH0M_rm8vXRwf8QxwSXfK7hWAA&s",
         },
       ],
     },
     {
-      title: "Others",
+      title: "Other Tools",
       skills: [
         {
           name: "VS Code",
@@ -72,6 +78,23 @@ export const skills = [
           name: "GitHub",
           image:
             "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        },
+        {
+          name: "Gitlab",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/GitLab_icon.svg/640px-GitLab_icon.svg.png",
+        },
+        {
+          name: "MySQL",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        },
+        {
+          name: "Firebase",
+          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        },
+        {
+          name: "Tableau",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ionicons_logo-tableau.svg/640px-Ionicons_logo-tableau.svg.png",
         },
       ],
     },
@@ -132,6 +155,23 @@ export const experiences = [
           "React Js",
           "Node Js",
           "VS Code"
+        ]
+      },
+      {
+        id: 3,
+        img: "logo-playtorium.png",
+        title: "Software Developer Intern",
+        company: "Playtorium Solutions Company Limited",
+        date: "June - July 2024",
+        desc: 'Working in a web development project as a Front-End developer using Next.js and TypeScript',
+        skills: [
+          "HTML",
+          "CSS",
+          "TypeScript",
+          "Next Js",
+          "Node Js",
+          "VS Code",
+          "Gitlab"
         ]
       }
     ];
@@ -215,8 +255,8 @@ export const experiences = [
         img: "logo-siit.png",
         school: "Sirindhorn International Institute of Technology, Thammasat University",
         date: "August 2021 - Present",
-        grade: "3.91 GPAX",
-        desc: "I am currently a full scholarship student at SIIT, Thammasat University, in the Young Scientist and Technologist Program (100% Waiving of SIIT tuition fees, Living allowance and research with NSTDA). I am studying Digital Engineering with Data Science as my minor track. I am one of SIIT Dance Club's committee since the second year. For my third year, I joined SIIT Innovation Club as a founder member and became a secretary of a club's web-app project. Also, I am a member in Technical Core Team of the Google Developers Student Club (GDSC) at Thammasat University, where I have a big opportunity to be a speaker of the React 101 workshop with a team of talented people.",
+        grade: "3.87 GPAX",
+        desc: ["Full scholarship student in the Young Scientist and Technologist Program", "Digital Engineering Program (Minor track: Data Science)", "SIIT Innovation Club member and a secretary of the SIIT's activity web-app project, OrcaHub", "Former Technical Core Team of the Google Developers Student Club (GDSC)", "Former SIIT Dance Club's committee"],
         degree: "Bachelor of Engineering (Digital Engineering)",
       },
       {
@@ -225,7 +265,7 @@ export const experiences = [
         school: "Mahidol Wittayanusorn School, Nakhon prathom",
         date: "May 2018 - March 2021",
         grade: "3.93 GPAX",
-        desc: "I graduated from this science school with a lot of experience, acheivements and connections with young talented students",      
+        desc: ["Awarded 3rd Prize in the Learning Development category at the Twenty-Second National Software Contest (NSC 2020)", "Won Gold Medals in both Oral and Poster Presentation at the 1st International Conference for Students in Science and Innovation (ISSI 2020)."],      
       },
       {
         id: 2,
@@ -233,7 +273,7 @@ export const experiences = [
         school: "Benjama Rachutit Ratchaburi School, Ratchaburi",
         date: "2015 - 2017",
         grade: "3.99 GPAX",
-        desc: "I was in a Gifted Math Program in junior high school where my academic journey started. I joined mathematical and science competitions as many as I could and also got into POSN programs twice (math and computer). I dedicated most of my time to my education to finally find out what I could do and what I would like to be in the future, which was to study further in the technology field and see how this changes the world in the better way.",
+        desc: ["Studied in Gifted Math Program", "Joined Computer and Mathematics POSN programs", "Joined several mathematical and science competitions"],
         degree: "Gifted Math Program"
       },
     ];
