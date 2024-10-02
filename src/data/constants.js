@@ -201,8 +201,7 @@ export const experiences = [
           "HTML",
           "CSS",
           "JavaScript",
-          "Python",
-          "Firebase",
+          "D3 Js"
         ],
         category: ["web app","data"],
         github: "https://github.com/pavidamalitong/Org-Chart-of-Thailiand-Organization-using-D3.js",
