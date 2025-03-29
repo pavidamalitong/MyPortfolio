@@ -8,6 +8,36 @@ export const skills = [
       title: "Programming",
       skills: [
         {
+          name: "C",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+        },
+        {
+          name: "C#",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Logo_C_sharp.png/640px-Logo_C_sharp.png",
+        },
+        {
+          name: "Python",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+        {
+          name: "Java",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+        {
+          name: "Scala",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Scala-spiral-noise-sm.png/640px-Scala-spiral-noise-sm.png",
+        },
+        {
+          name: "SQL",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT55MVn1u8pyH0M_rm8vXRwf8QxwSXfK7hWAA&s",
+        },
+        {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
@@ -43,45 +73,16 @@ export const skills = [
         {
           name: "Express Js",
           image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png?20170429090805"
-        },
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "Java",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
-        {
-          name: "SQL",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT55MVn1u8pyH0M_rm8vXRwf8QxwSXfK7hWAA&s",
-        },
+        }
       ],
     },
     {
-      title: "Other Tools",
+      title: "Tech Tools",
       skills: [
         {
-          name: "VS Code",
+          name: "Git",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Figma",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
-        },
-        {
-          name: "GitHub",
-          image:
-            "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-        },
-        {
-          name: "Gitlab",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/GitLab_icon.svg/640px-GitLab_icon.svg.png",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         },
         {
           name: "MySQL",
@@ -89,8 +90,23 @@ export const skills = [
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
         {
+          name: "PostgreSQL",
+          image:
+            "https://wiki.postgresql.org/images/thumb/9/9a/PostgreSQL_logo.3colors.540x557.png/233px-PostgreSQL_logo.3colors.540x557.png",
+        },
+        {
+          name: "MongoDB",
+          image:
+            "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+        },
+        {
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        },
+        {
+          name: "Figma",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
         },
         {
           name: "Tableau",
@@ -173,6 +189,23 @@ export const experiences = [
           "VS Code",
           "Gitlab"
         ]
+      },
+      {
+        id: 4,
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Agoda_Logo_2022.svg/640px-Agoda_Logo_2022.svg.png",
+        title: "Software Engineer Intern",
+        company: "Agoda Services Company Limited",
+        date: "January 2025 - Present",
+        desc: 'Being part of the FinTech Operations team which is responsible for maintaining and optimizing financial data processes. Working on Back-End focus tasks such as improving database performance, automating workflows, and enhancing internal tools',
+        skills: [
+          "SQL",
+          "Scala",
+          "C#",
+          "PostgreSQL",
+          "JetBrains Rider",
+          "IntelliJ IDEA",
+          "Gitlab"
+        ]
       }
     ];
 
@@ -245,6 +278,22 @@ export const experiences = [
         ],
         category: "web app",
         github: "https://github.com/NapathsaraPinthong/friendry",
+      },
+      {
+        id: 3,
+        title: "BookJour! — Bookstore Mobile App",
+        date: "Nov 2024 - Dec 2024",
+        description:
+          "Working with two members in DES427 Mobile Application Programming course to develop a user-friendly mobile application designed for book browsing and shopping using React-native and Firebase. It features a signup & login system, shopping cart and also inventory system to manage stock levels. Users can search for books by title, author, publisher, or ISBN, with search results displaying the remaining stock for each book.",
+        image:
+          "BookJour.png",
+        tags: [
+          "React Native",
+          "TypeScript",
+          "Firebase",
+        ],
+        category: "web app",
+        github: "https://github.com/pavidamalitong/bookstore-mobile-app",
       }
     ];
 
@@ -253,8 +302,8 @@ export const experiences = [
         id: 0,
         img: "logo-siit.png",
         school: "Sirindhorn International Institute of Technology, Thammasat University",
-        date: "August 2021 - Present",
-        grade: "3.87 GPAX",
+        date: "August 2021 - Expected May 2025",
+        grade: "3.80 GPAX",
         desc: ["Full scholarship student in the Young Scientist and Technologist Program", "Digital Engineering Program (Minor track: Data Science)", "SIIT Innovation Club member and a secretary of the SIIT's activity web-app project, OrcaHub", "Former Technical Core Team of the Google Developers Student Club (GDSC)", "Former SIIT Dance Club's committee"],
         degree: "Bachelor of Engineering (Digital Engineering)",
       },

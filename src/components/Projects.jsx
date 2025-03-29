@@ -135,12 +135,12 @@ const Projects = ({openModal,setOpenModal}) => {
 
         <CardContainer>
           {toggle === 'all' && projects
-            .map((project) => (
+            .slice().reverse().map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
             .filter((item) => item.category.includes(toggle))
-            .map((project) => (
+            .slice().reverse().map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>

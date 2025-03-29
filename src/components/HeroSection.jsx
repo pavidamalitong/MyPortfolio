@@ -109,12 +109,12 @@ const HeroSection = () => {
     <Container id="hero">
     <Wrapper>
       <LeftContainer>
-        <Greeting>Hello there, Welcome to my site.</Greeting>
+        <Greeting>Hello there, Welcome to my portfolio website.</Greeting>
         <BigName>Pavida Malitong</BigName>
-        <Position>Digital Engineering student at SIIT, Thammasat University</Position>
+        <Position>Senior Digital Engineering student at SIIT, Thammasat University</Position>
         <Description>
         <br></br>
-        Have a background in <b>Data Visualization</b> and <b>Front-end Development</b> internships. <br/>Currently seeking a data science or software development internship to further develop my expertise and contribute to impactful projects within a potential company.
+        Have a background in <b>Full-stack Development</b> and <b>Data Visualization</b> internships. <br/>Currently seeking a full-time or contract position in software engineering or data science to further develop my expertise and contribute to impactful projects within a potential company.
         </Description>
       </LeftContainer>
 

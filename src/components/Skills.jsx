@@ -177,7 +177,7 @@ const Skills = () => {
 
         <Section>
         {skills
-        .filter(skill => skill.title === 'Other Tools')
+        .filter(skill => skill.title === 'Tech Tools')
         .map(skill => (
           <SkillOthers key={skill.title}>
             <SkillTitle>{skill.title}</SkillTitle>
