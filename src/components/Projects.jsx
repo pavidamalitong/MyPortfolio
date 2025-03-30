@@ -130,6 +130,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="data" onClick={() => setToggle('data')}>DATA</ToggleButton>
           }
+          <Divider />
+          {toggle === 'game' ?
+            <ToggleButton active value="game" onClick={() => setToggle('game')}>GAME</ToggleButton>
+            :
+            <ToggleButton value="game" onClick={() => setToggle('game')}>GAME</ToggleButton>
+          }
         </ToggleButtonGroup>
 
 

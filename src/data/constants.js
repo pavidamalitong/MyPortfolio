@@ -192,6 +192,17 @@ export const experiences = [
       },
       {
         id: 4,
+        img: "https://www.icmlc.org/images/logo/ICMLC-logobig.png",
+        title: "Full Paper Oral Presentation",
+        company: "2025 17th International Conference on Machine Learning and Computing (ICMLC 2025)",
+        date: "14 - 17 Febuary 2025",
+        desc: 'Being a presenter of the full paper "Household Data Analysis using Graph Techniques" in the Special Session 1, and received the Best Presentation Award within the session.',
+        skills: [
+          "Presentation"
+        ]
+      },
+      {
+        id: 5,
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Agoda_Logo_2022.svg/640px-Agoda_Logo_2022.svg.png",
         title: "Software Engineer Intern",
         company: "Agoda Services Company Limited",
@@ -219,7 +230,7 @@ export const experiences = [
         image:
           "ThinkcArMath_JAVA.png",
         tags: ["Java"],
-        category: "",
+        category: "game",
         github: "https://github.com/pavidamalitong/ThinkcArMath_JAVA",
       },
       {
@@ -294,6 +305,38 @@ export const experiences = [
         ],
         category: "web app",
         github: "https://github.com/pavidamalitong/bookstore-mobile-app",
+      },
+      {
+        id: 4,
+        title: "Herbocalypse - PyGame",
+        date: "Nov 2024 - Dec 2024",
+        description:
+          "Working in a group of six in DES485 Game Development course to use PyGame to develop a game in the theme 'Randomness'. In this game, we take on the role of the village protector defending our people from an increasing horde of zombies outside the village walls. Our mission is to grow several types of herbs, following detailed manuals to ensure successful growth and use them to cure the zombies back into humans. The game applies procedural content generation (PCG) techniques to create dynamic and unpredictable patterns in zombie appearances, along with surprising random mini-games related to the main tasks.",
+        image:
+          "Herbocalypse.png",
+        tags: [
+          "Pygame",
+        ],
+        category: "game",
+        github: "https://github.com/pavidamalitong/Herbocalypse",
+      },
+      {
+        id: 5,
+        title: "Household Data Analysis using Graph Techniques",
+        date: "Mar 2024 - Dec 2024",
+        description:
+          "Collaborated with two teammates, an advisor from SIIT, and two NSTDA researchers under the YTSP program to analyze household data using graph-based techniques. We developed node embeddings using Metapath2Vec and applied clustering algorithms to identify household patterns, providing insights into socio-economic fragility. Presented at ICMLC 2025 (17th International Conference on Machine Learning and Computing).",
+        image:
+          "SeniorProject.png",
+        tags: [
+          "Python",
+          "MongoDB",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        category: ["web app","data"],
+        github: "https://github.com/NapathsaraPinthong/Household-Data-Analysis",
       }
     ];
 
